@@ -349,6 +349,14 @@ export const sounds: Sound[] = [
     url: 'https://assets.mixkit.co/active_storage/sfx/2366/2366-preview.mp3',
     image: 'https://media.istockphoto.com/id/176756843/photo/woman-writing-on-blackboard-at-classroom.webp?s=2048x2048&w=is&k=20&c=jLan615rxjPwCA3yPhTPDT7szo8TqGIO92W-2d1POMg='
   },
+  {
+    id: 'KaLion',
+    name: 'KaLion babu',
+    category: 'action',
+    description: 'SEIZE THE SHIP',
+    url: 'https://dw.zobj.net/download/v1/b7cBnACku0f2m3U4kT23Pe6q08ezZqkL2QvgPgf2jOK-ObtboVWjVixNO7oeYbV_9lK-q8XSOZNLqCEzb2KU-OmJfVtfRoWv3t5SXUwvU5rsqAjt6qkHUIlzDuS8/?a=&c=72&f=gabbar_singh.mp3&special=1733583732-yBZRcgjeYqJuIZb3l2Tn%2BPjR8cKdrpocyu0zDWevyqs%3D',
+    image: 'https://www.sakshi.com/gallery_images/2023/07/28/Sai%20Dharam%20Tej%2C%20Ketika%20Sharma%20in%20BRO%20Movie%20Images%20HD-6.jpg'
+  },
   
   
 ];
