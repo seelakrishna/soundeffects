@@ -349,7 +349,14 @@ export const sounds: Sound[] = [
     url: 'https://assets.mixkit.co/active_storage/sfx/2366/2366-preview.mp3',
     image: 'https://media.istockphoto.com/id/176756843/photo/woman-writing-on-blackboard-at-classroom.webp?s=2048x2048&w=is&k=20&c=jLan615rxjPwCA3yPhTPDT7szo8TqGIO92W-2d1POMg='
   },
-  
+  {
+    id: 'Writing',
+    name: 'Chalk Writing',
+    category: 'action',
+    description: 'Writing on board',
+    url: 'https://assets.mixkit.co/active_storage/sfx/2366/2366-preview.mp3',
+    image: 'https://media.istockphoto.com/id/176756843/photo/woman-writing-on-blackboard-at-classroom.webp?s=2048x2048&w=is&k=20&c=jLan615rxjPwCA3yPhTPDT7szo8TqGIO92W-2d1POMg='
+  },
  
   
 ];
