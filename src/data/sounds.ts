@@ -363,7 +363,7 @@ export const sounds: Sound[] = [
     category: 'action',
     description: 'Baag saleey',
     url: 'https://dw.zobj.net/download/v1/bsUC-EiMD4h5jhH4OgJhIzkn--pYYzuJuyL8cd36o_TE8DcN0JvsVCxbZkU52GF_weZ7C1vHhQ7rd-zVaB9NnDy0qOMktyU_MHpMKwlUUC8UkCNgwb6FhZf5Vqk4/?a=&c=72&f=mahesh_dialogue.mp3&special=1733584349-T7o%2BZoDGEt1Q35uPttSUP0BBV2EJ3%2BgIESVEBh2c4P0%3D',
-    image: 'https://images.filmibeat.com/ph-big/2023/06/mahesh-babu_168654620540.heic'
+    image: 'https://stat4.bollywoodhungama.in/wp-content/uploads/2023/06/Mahesh-Babu-4.jpg'
   },
   
 ];
