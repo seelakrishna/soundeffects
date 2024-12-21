@@ -3,6 +3,7 @@ import { Play, Pause, Volume2 } from 'lucide-react';
 import { Sound } from '../types/sound';
 import { useAudio } from '../contexts/AudioContext';
 import { ShareButton } from './ShareButton';
+import { LikeButton } from './LikeButton';
 
 interface SoundCardProps {
   sound: Sound;
@@ -19,13 +20,10 @@ export function SoundCard({ sound }: SoundCardProps) {
         audioRef.current.pause();
         currentlyPlaying.current = null;
       } else {
-        // Stop currently playing audio if any
         if (currentlyPlaying.current && currentlyPlaying.current !== audioRef.current) {
           currentlyPlaying.current.pause();
-          // Trigger the onPause event on the currently playing audio
           currentlyPlaying.current.dispatchEvent(new Event('pause'));
         }
-        
         audioRef.current.play();
         currentlyPlaying.current = audioRef.current;
       }
@@ -39,7 +37,6 @@ export function SoundCard({ sound }: SoundCardProps) {
   };
 
   const handlePause = () => {
-    // Only update state if this audio element was externally paused
     if (audioRef.current && currentlyPlaying.current !== audioRef.current) {
       setIsPlaying(false);
     }
@@ -65,6 +62,7 @@ export function SoundCard({ sound }: SoundCardProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         <div className="absolute bottom-4 right-4 flex items-center gap-2">
+          <LikeButton sound={sound} />
           <ShareButton sound={sound} />
           <button
             onClick={togglePlay}
